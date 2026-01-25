@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Recorder</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            padding: 40px;
+            max-width: 500px;
+            width: 100%;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+            text-align: center;
+            font-size: 28px;
+        }
+
+        .controls {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        button {
+            padding: 12px 24px;
+            font-size: 16px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            min-width: 120px;
+        }
+
+        #recordBtn {
+            background-color: #667eea;
+            color: white;
+        }
+
+        #recordBtn:hover:not(:disabled) {
+            background-color: #5568d3;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        #recordBtn:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
+        #stopBtn {
+            background-color: #f56565;
+            color: white;
+        }
+
+        #stopBtn:hover:not(:disabled) {
+            background-color: #e53e3e;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(245, 101, 101, 0.4);
+        }
+
+        #stopBtn:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
+        #downloadBtn {
+            background-color: #48bb78;
+            color: white;
+        }
+
+        #downloadBtn:hover:not(:disabled) {
+            background-color: #38a169;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(72, 187, 120, 0.4);
+        }
+
+        #downloadBtn:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
+        .status {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 14px;
+            color: #666;
+            min-height: 20px;
+        }
+
+        .status.recording {
+            color: #f56565;
+            font-weight: 600;
+        }
+
+        .status.ready {
+            color: #48bb78;
+        }
+
+        .status.saving {
+            color: #667eea;
+            font-weight: 600;
+        }
+
+        .status.error {
+            color: #f56565;
+            font-weight: 600;
+        }
+
+        .recordings {
+            margin-top: 30px;
+            border-top: 2px solid #eee;
+            padding-top: 20px;
+        }
+
+        .recordings h2 {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .recording-item {
+            background: #f7fafc;
+            padding: 12px;
+            border-radius: 6px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .recording-item audio {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .recording-item button {
+            padding: 6px 12px;
+            font-size: 12px;
+            min-width: 70px;
+            background-color: #e53e3e;
+            color: white;
+        }
+
+        .recording-item button:hover {
+            background-color: #c53030;
+        }
+
+        .session-info {
+            text-align: center;
+            font-size: 12px;
+            color: #999;
+            margin-bottom: 20px;
+            word-break: break-all;
+            background: #f0f0f0;
+            padding: 8px;
+            border-radius: 4px;
+        }
+
+        .no-recordings {
+            color: #999;
+            font-size: 14px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .save-status {
+            font-size: 11px;
+            color: #999;
+            padding: 4px 8px;
+            background: #e2e8f0;
+            border-radius: 3px;
+            white-space: nowrap;
+        }
+
+        .save-status.saved {
+            color: #48bb78;
+            background: #c6f6d5;
+        }
+
+        .save-status.saving {
+            color: #667eea;
+            background: #bee3f8;
+        }
+
+        .timer {
+            font-size: 20px;
+            font-weight: bold;
+            color: #667eea;
+            text-align: center;
+            margin-bottom: 20px;
+            min-height: 28px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎙️ Audio Recorder</h1>
+        <div class="session-info">Session ID: <span id="sessionId">Loading...</span></div>
+        
+        <div class="status" id="status">Ready to record</div>
+        <div class="timer" id="timer"></div>
+        
+        <div class="controls">
+            <button id="recordBtn" onclick="startRecording()">Record</button>
+            <button id="stopBtn" onclick="stopRecording()" disabled>Stop</button>
+            <button id="saveBtn" onclick="saveAllRecordings()" disabled>Save All</button>
+        </div>
+
+        <div class="recordings" id="recordingsSection" style="display: none;">
+            <h2>Recordings</h2>
+            <div id="recordingsList"></div>
+        </div>
+        <div class="no-recordings" id="noRecordings">No recordings yet</div>
+    </div>
+
+    <script>
+        let mediaRecorder;
+        let audioChunks = [];
+        let recordings = [];
+        let startTime;
+        let timerInterval;
+        let sessionId;
+
+        // Initialize session on page load
+        async function initSession() {
+            try {
+                const response = await fetch('/api/session');
+                const data = await response.json();
+                sessionId = data.sessionId;
+                document.getElementById('sessionId').textContent = sessionId;
+            } catch (error) {
+                console.error('Error initializing session:', error);
+                document.getElementById('sessionId').textContent = 'Error';
+            }
+        }
+
+        async function startRecording() {
+            try {
+                const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+                mediaRecorder = new MediaRecorder(stream);
+                audioChunks = [];
+
+                mediaRecorder.ondataavailable = (event) => {
+                    audioChunks.push(event.data);
+                };
+
+                mediaRecorder.onstop = () => {
+                    const audioBlob = new Blob(audioChunks, { type: 'audio/webm' });
+                    const audioUrl = URL.createObjectURL(audioBlob);
+                    recordings.push({
+                        url: audioUrl,
+                        blob: audioBlob,
+                        timestamp: new Date().toLocaleString(),
+                        saved: false
+                    });
+                    displayRecordings();
+                };
+
+                mediaRecorder.start();
+                updateUI(true);
+                startTimer();
+                updateStatus('Recording...', true);
+            } catch (error) {
+                updateStatus('Error: Unable to access microphone', false);
+                console.error('Error accessing microphone:', error);
+            }
+        }
+
+        function stopRecording() {
+            if (mediaRecorder && mediaRecorder.state !== 'inactive') {
+                mediaRecorder.stop();
+                mediaRecorder.stream.getTracks().forEach(track => track.stop());
+                updateUI(false);
+                stopTimer();
+                updateStatus('Ready to record', false);
+            }
+        }
+
+        function startTimer() {
+            startTime = Date.now();
+            timerInterval = setInterval(() => {
+                const elapsed = Math.floor((Date.now() - startTime) / 1000);
+                const minutes = Math.floor(elapsed / 60);
+                const seconds = elapsed % 60;
+                document.getElementById('timer').textContent = 
+                    `${minutes}:${seconds.toString().padStart(2, '0')}`;
+            }, 100);
+        }
+
+        function stopTimer() {
+            clearInterval(timerInterval);
+            document.getElementById('timer').textContent = '';
+        }
+
+        function updateUI(isRecording) {
+            document.getElementById('recordBtn').disabled = isRecording;
+            document.getElementById('stopBtn').disabled = !isRecording;
+            document.getElementById('saveBtn').disabled = recordings.filter(r => !r.saved).length === 0;
+        }
+
+        function updateStatus(text, type) {
+            const status = document.getElementById('status');
+            status.textContent = text;
+            // Reset all classes and add the new one
+            status.className = 'status ' + (type || 'ready');
+        }
+
+        function displayRecordings() {
+            const recordingsList = document.getElementById('recordingsList');
+            const recordingsSection = document.getElementById('recordingsSection');
+            const noRecordings = document.getElementById('noRecordings');
+
+            if (recordings.length === 0) {
+                recordingsSection.style.display = 'none';
+                noRecordings.style.display = 'block';
+                document.getElementById('saveBtn').disabled = true;
+                return;
+            }
+
+            recordingsSection.style.display = 'block';
+            noRecordings.style.display = 'none';
+            document.getElementById('saveBtn').disabled = recordings.filter(r => !r.saved).length === 0;
+
+            recordingsList.innerHTML = recordings.map((recording, index) => `
+                <div class="recording-item">
+                    <audio controls src="${recording.url}" style="flex: 1;"></audio>
+                    <span class="save-status ${recording.saved ? 'saved' : ''}" id="status-${index}">
+                        ${recording.saved ? '✓ Saved' : '○ Pending'}
+                    </span>
+                    <button onclick="deleteRecording(${index})">Delete</button>
+                </div>
+            `).join('');
+        }
+
+        function deleteRecording(index) {
+            recordings.splice(index, 1);
+            displayRecordings();
+        }
+
+        async function saveAllRecordings() {
+            const unsavedRecordings = recordings.map((r, i) => ({ ...r, index: i })).filter(r => !r.saved);
+            
+            if (unsavedRecordings.length === 0) {
+                updateStatus('All recordings already saved!', 'ready');
+                return;
+            }
+
+            updateStatus(`Saving ${unsavedRecordings.length} recording(s)...`, 'saving');
+
+            for (const recording of unsavedRecordings) {
+                try {
+                    const formData = new FormData();
+                    formData.append('audio', recording.blob, `recording-${recording.index}.webm`);
+
+                    const response = await fetch(`/api/upload?sessionId=${encodeURIComponent(sessionId)}`, {
+                        method: 'POST',
+                        body: formData
+                    });
+
+                    if (response.ok) {
+                        recordings[recording.index].saved = true;
+                        const statusEl = document.getElementById(`status-${recording.index}`);
+                        if (statusEl) {
+                            statusEl.textContent = '✓ Saved';
+                            statusEl.classList.add('saved');
+                        }
+                    } else {
+                        const errorData = await response.json();
+                        console.error('Upload failed:', response.status, errorData);
+                        updateStatus(`Upload failed: ${errorData.error || response.statusText}`, 'error');
+                    }
+                } catch (error) {
+                    console.error('Error saving recording:', error);
+                    updateStatus(`Error saving recording: ${error.message}`, 'error');
+                }
+            }
+
+            updateStatus('All recordings saved to session folder!', 'ready');
+        }
+
+        // Check browser support
+        if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+            updateStatus('Error: Your browser does not support audio recording', 'error');
+            document.getElementById('recordBtn').disabled = true;
+        }
+
+        // Initialize on page load
+        initSession();
+    </script>
+</body>
+</html>

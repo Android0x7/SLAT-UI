@@ -1,0 +1,18 @@
+{
+  "name": "audio-recorder",
+  "version": "1.0.0",
+  "description": "Audio recording web application with local file storage",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["audio", "recorder"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^9.0.0"
+  }
+}
