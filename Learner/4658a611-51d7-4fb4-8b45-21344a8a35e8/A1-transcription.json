@@ -1,0 +1,89 @@
+{
+  "language": "en",
+  "words": [
+    {
+      "word": " Once",
+      "start": 0,
+      "end": 0.92,
+      "probability": 0.9692464470863342
+    },
+    {
+      "word": " upon",
+      "start": 0.92,
+      "end": 1.1,
+      "probability": 0.973724365234375
+    },
+    {
+      "word": " a",
+      "start": 1.1,
+      "end": 1.38,
+      "probability": 0.9927531480789185
+    },
+    {
+      "word": " time",
+      "start": 1.38,
+      "end": 1.78,
+      "probability": 0.9965163469314575
+    },
+    {
+      "word": " there",
+      "start": 1.78,
+      "end": 2.12,
+      "probability": 0.7680720686912537
+    },
+    {
+      "word": " was",
+      "start": 2.12,
+      "end": 2.4,
+      "probability": 0.9931117296218872
+    },
+    {
+      "word": " a",
+      "start": 2.4,
+      "end": 2.5,
+      "probability": 0.9763123989105225
+    },
+    {
+      "word": " boy",
+      "start": 2.5,
+      "end": 2.66,
+      "probability": 0.3669714331626892
+    },
+    {
+      "word": " called",
+      "start": 2.66,
+      "end": 2.92,
+      "probability": 0.746177077293396
+    },
+    {
+      "word": " Jack",
+      "start": 2.92,
+      "end": 3.24,
+      "probability": 0.9177187085151672
+    },
+    {
+      "word": " oblique",
+      "start": 3.24,
+      "end": 3.68,
+      "probability": 0.28679488599300385
+    },
+    {
+      "word": " with",
+      "start": 3.68,
+      "end": 3.94,
+      "probability": 0.9749148488044739
+    },
+    {
+      "word": " his",
+      "start": 3.94,
+      "end": 4.1,
+      "probability": 0.69191974401474
+    },
+    {
+      "word": " mother.",
+      "start": 4.1,
+      "end": 4.42,
+      "probability": 0.9976315498352051
+    }
+  ]
+}

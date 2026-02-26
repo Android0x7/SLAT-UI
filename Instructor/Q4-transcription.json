@@ -1,0 +1,149 @@
+{
+  "language": "en",
+  "words": [
+    {
+      "word": " On",
+      "start": 0,
+      "end": 0.26,
+      "probability": 0.6381828188896179
+    },
+    {
+      "word": " the",
+      "start": 0.26,
+      "end": 0.48,
+      "probability": 0.9287979602813721
+    },
+    {
+      "word": " way,",
+      "start": 0.48,
+      "end": 0.88,
+      "probability": 0.9466819167137146
+    },
+    {
+      "word": " Jack",
+      "start": 1.14,
+      "end": 1.38,
+      "probability": 0.9664576649665833
+    },
+    {
+      "word": " met",
+      "start": 1.38,
+      "end": 1.62,
+      "probability": 0.639344334602356
+    },
+    {
+      "word": " a",
+      "start": 1.62,
+      "end": 1.82,
+      "probability": 0.9585108757019043
+    },
+    {
+      "word": " man.",
+      "start": 1.82,
+      "end": 2.18,
+      "probability": 0.9955132603645325
+    },
+    {
+      "word": " He",
+      "start": 2.56,
+      "end": 2.72,
+      "probability": 0.9862539768218994
+    },
+    {
+      "word": " gave",
+      "start": 2.72,
+      "end": 2.98,
+      "probability": 0.975364089012146
+    },
+    {
+      "word": " Jack",
+      "start": 2.98,
+      "end": 3.28,
+      "probability": 0.7911221981048584
+    },
+    {
+      "word": " some",
+      "start": 3.28,
+      "end": 3.5,
+      "probability": 0.9986408352851868
+    },
+    {
+      "word": " magic",
+      "start": 3.5,
+      "end": 3.82,
+      "probability": 0.9901933073997498
+    },
+    {
+      "word": " beans",
+      "start": 3.82,
+      "end": 4.18,
+      "probability": 0.9242674708366394
+    },
+    {
+      "word": " for",
+      "start": 4.18,
+      "end": 4.38,
+      "probability": 0.9953072667121887
+    },
+    {
+      "word": " the",
+      "start": 4.38,
+      "end": 4.54,
+      "probability": 0.9958557486534119
+    },
+    {
+      "word": " cow.",
+      "start": 4.54,
+      "end": 4.92,
+      "probability": 0.9892534613609314
+    },
+    {
+      "word": " Jack",
+      "start": 5.16,
+      "end": 5.4,
+      "probability": 0.994428277015686
+    },
+    {
+      "word": " took",
+      "start": 5.4,
+      "end": 5.68,
+      "probability": 0.9949530959129333
+    },
+    {
+      "word": " the",
+      "start": 5.68,
+      "end": 5.9,
+      "probability": 0.9971010088920593
+    },
+    {
+      "word": " beans",
+      "start": 5.9,
+      "end": 6.12,
+      "probability": 0.9952044486999512
+    },
+    {
+      "word": " and",
+      "start": 6.12,
+      "end": 6.4,
+      "probability": 0.9819493889808655
+    },
+    {
+      "word": " went",
+      "start": 6.4,
+      "end": 6.6,
+      "probability": 0.9982855916023254
+    },
+    {
+      "word": " back",
+      "start": 6.6,
+      "end": 6.88,
+      "probability": 0.9944905042648315
+    },
+    {
+      "word": " home.",
+      "start": 6.88,
+      "end": 7.28,
+      "probability": 0.9998125433921814
+    }
+  ]
+}

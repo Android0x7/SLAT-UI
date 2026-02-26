@@ -1,0 +1,131 @@
+{
+  "language": "en",
+  "words": [
+    {
+      "word": " Jack",
+      "start": 0,
+      "end": 0.5,
+      "probability": 0.8412096500396729
+    },
+    {
+      "word": " heard",
+      "start": 0.5,
+      "end": 0.84,
+      "probability": 0.09302915632724762
+    },
+    {
+      "word": " a",
+      "start": 0.84,
+      "end": 0.98,
+      "probability": 0.9168533682823181
+    },
+    {
+      "word": " voice.",
+      "start": 0.98,
+      "end": 1.54,
+      "probability": 0.9983698725700378
+    },
+    {
+      "word": " Fee,",
+      "start": 2.22,
+      "end": 2.46,
+      "probability": 0.3581223636865616
+    },
+    {
+      "word": " fee,",
+      "start": 2.46,
+      "end": 2.86,
+      "probability": 0.7816709876060486
+    },
+    {
+      "word": " foe,",
+      "start": 2.96,
+      "end": 3.38,
+      "probability": 0.9073349833488464
+    },
+    {
+      "word": " fun.",
+      "start": 3.42,
+      "end": 3.7,
+      "probability": 0.676449716091156
+    },
+    {
+      "word": " I",
+      "start": 4.22,
+      "end": 4.4,
+      "probability": 0.989355206489563
+    },
+    {
+      "word": " hear",
+      "start": 4.4,
+      "end": 4.66,
+      "probability": 0.9948432445526123
+    },
+    {
+      "word": " the",
+      "start": 4.66,
+      "end": 5,
+      "probability": 0.995717465877533
+    },
+    {
+      "word": " sound",
+      "start": 5,
+      "end": 5.3,
+      "probability": 0.9969837069511414
+    },
+    {
+      "word": " of",
+      "start": 5.3,
+      "end": 5.74,
+      "probability": 0.9990252256393433
+    },
+    {
+      "word": " an",
+      "start": 5.74,
+      "end": 5.92,
+      "probability": 0.9870406985282898
+    },
+    {
+      "word": " Englishman.",
+      "start": 5.92,
+      "end": 6.72,
+      "probability": 0.9243624210357666
+    },
+    {
+      "word": " Jack",
+      "start": 7.04,
+      "end": 7.38,
+      "probability": 0.98134446144104
+    },
+    {
+      "word": " ran",
+      "start": 7.38,
+      "end": 7.64,
+      "probability": 0.837445855140686
+    },
+    {
+      "word": " and",
+      "start": 7.64,
+      "end": 7.86,
+      "probability": 0.9882517457008362
+    },
+    {
+      "word": " hid",
+      "start": 7.86,
+      "end": 8.12,
+      "probability": 0.9077150821685791
+    },
+    {
+      "word": " inside",
+      "start": 8.12,
+      "end": 8.66,
+      "probability": 0.988304615020752
+    },
+    {
+      "word": " cupboard.",
+      "start": 8.66,
+      "end": 9.04,
+      "probability": 0.9436604380607605
+    }
+  ]
+}

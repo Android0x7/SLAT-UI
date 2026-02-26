@@ -1,0 +1,131 @@
+{
+  "language": "en",
+  "words": [
+    {
+      "word": " an",
+      "start": 0,
+      "end": 0.32,
+      "probability": 0.5074707865715027
+    },
+    {
+      "word": " enormous",
+      "start": 0.32,
+      "end": 0.9,
+      "probability": 0.9955297112464905
+    },
+    {
+      "word": " giant",
+      "start": 0.9,
+      "end": 1.54,
+      "probability": 0.9914191961288452
+    },
+    {
+      "word": " came",
+      "start": 1.54,
+      "end": 1.86,
+      "probability": 0.9892338514328003
+    },
+    {
+      "word": " into",
+      "start": 1.86,
+      "end": 2.08,
+      "probability": 0.984247088432312
+    },
+    {
+      "word": " the",
+      "start": 2.08,
+      "end": 2.28,
+      "probability": 0.9956272840499878
+    },
+    {
+      "word": " room",
+      "start": 2.28,
+      "end": 2.62,
+      "probability": 0.9974028468132019
+    },
+    {
+      "word": " and",
+      "start": 2.62,
+      "end": 3.04,
+      "probability": 0.9424439668655396
+    },
+    {
+      "word": " sat",
+      "start": 3.04,
+      "end": 3.24,
+      "probability": 0.9977464079856873
+    },
+    {
+      "word": " down.",
+      "start": 3.24,
+      "end": 3.84,
+      "probability": 0.9981409311294556
+    },
+    {
+      "word": " On",
+      "start": 4.24,
+      "end": 4.4,
+      "probability": 0.9881195425987244
+    },
+    {
+      "word": " the",
+      "start": 4.4,
+      "end": 4.56,
+      "probability": 0.9971455931663513
+    },
+    {
+      "word": " table,",
+      "start": 4.56,
+      "end": 4.94,
+      "probability": 0.9943610429763794
+    },
+    {
+      "word": " there",
+      "start": 5.26,
+      "end": 5.3,
+      "probability": 0.982187807559967
+    },
+    {
+      "word": " was",
+      "start": 5.3,
+      "end": 5.52,
+      "probability": 0.9956446886062622
+    },
+    {
+      "word": " a",
+      "start": 5.52,
+      "end": 5.72,
+      "probability": 0.997285008430481
+    },
+    {
+      "word": " hand",
+      "start": 5.72,
+      "end": 5.98,
+      "probability": 0.9374457597732544
+    },
+    {
+      "word": " and",
+      "start": 5.98,
+      "end": 6.26,
+      "probability": 0.8925885558128357
+    },
+    {
+      "word": " a",
+      "start": 6.26,
+      "end": 6.34,
+      "probability": 0.9887235164642334
+    },
+    {
+      "word": " golden",
+      "start": 6.34,
+      "end": 6.64,
+      "probability": 0.9366932511329651
+    },
+    {
+      "word": " harp.",
+      "start": 6.64,
+      "end": 7.06,
+      "probability": 0.3396163284778595
+    }
+  ]
+}

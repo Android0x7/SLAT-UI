@@ -1,0 +1,89 @@
+{
+  "language": "en",
+  "words": [
+    {
+      "word": " Once",
+      "start": 0,
+      "end": 0.76,
+      "probability": 0.23422281444072723
+    },
+    {
+      "word": " upon",
+      "start": 0.76,
+      "end": 0.94,
+      "probability": 0.9476252198219299
+    },
+    {
+      "word": " a",
+      "start": 0.94,
+      "end": 1.18,
+      "probability": 0.9924914240837097
+    },
+    {
+      "word": " time",
+      "start": 1.18,
+      "end": 1.54,
+      "probability": 0.9995610117912292
+    },
+    {
+      "word": " there",
+      "start": 1.54,
+      "end": 1.84,
+      "probability": 0.7854667901992798
+    },
+    {
+      "word": " was",
+      "start": 1.84,
+      "end": 2.14,
+      "probability": 0.9919188618659973
+    },
+    {
+      "word": " a",
+      "start": 2.14,
+      "end": 2.5,
+      "probability": 0.9360615015029907
+    },
+    {
+      "word": " boy",
+      "start": 2.5,
+      "end": 2.7,
+      "probability": 0.9408116936683655
+    },
+    {
+      "word": " called",
+      "start": 2.7,
+      "end": 3.08,
+      "probability": 0.2065894454717636
+    },
+    {
+      "word": " Jack",
+      "start": 3.08,
+      "end": 3.44,
+      "probability": 0.8362197875976562
+    },
+    {
+      "word": " who",
+      "start": 3.44,
+      "end": 3.68,
+      "probability": 0.9527693390846252
+    },
+    {
+      "word": " lived",
+      "start": 3.68,
+      "end": 3.94,
+      "probability": 0.8364667296409607
+    },
+    {
+      "word": " within",
+      "start": 3.94,
+      "end": 4.3,
+      "probability": 0.9109312891960144
+    },
+    {
+      "word": " brother.",
+      "start": 4.3,
+      "end": 4.72,
+      "probability": 0.14706474542617798
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "language": "en",
+  "words": [
+    {
+      "word": " One",
+      "start": 0,
+      "end": 0.36,
+      "probability": 0.6981945633888245
+    },
+    {
+      "word": " morning,",
+      "start": 0.36,
+      "end": 0.78,
+      "probability": 0.960742712020874
+    },
+    {
+      "word": " Jack's",
+      "start": 1.2,
+      "end": 1.58,
+      "probability": 0.8769726455211639
+    },
+    {
+      "word": " mother",
+      "start": 1.58,
+      "end": 1.78,
+      "probability": 0.9574612379074097
+    },
+    {
+      "word": " told",
+      "start": 1.78,
+      "end": 2.08,
+      "probability": 0.9941569566726685
+    },
+    {
+      "word": " Jack",
+      "start": 2.08,
+      "end": 2.32,
+      "probability": 0.9938912391662598
+    },
+    {
+      "word": " to",
+      "start": 2.32,
+      "end": 2.54,
+      "probability": 0.9801812767982483
+    },
+    {
+      "word": " take",
+      "start": 2.54,
+      "end": 2.76,
+      "probability": 0.9910637140274048
+    },
+    {
+      "word": " their",
+      "start": 2.76,
+      "end": 3.02,
+      "probability": 0.6602917313575745
+    },
+    {
+      "word": " cow",
+      "start": 3.02,
+      "end": 3.24,
+      "probability": 0.9481761455535889
+    },
+    {
+      "word": " to",
+      "start": 3.24,
+      "end": 3.46,
+      "probability": 0.9965364933013916
+    },
+    {
+      "word": " market",
+      "start": 3.46,
+      "end": 3.84,
+      "probability": 0.9611467123031616
+    },
+    {
+      "word": " and",
+      "start": 3.84,
+      "end": 4.36,
+      "probability": 0.8530181050300598
+    },
+    {
+      "word": " sell",
+      "start": 4.36,
+      "end": 4.56,
+      "probability": 0.960917055606842
+    },
+    {
+      "word": " her.",
+      "start": 4.56,
+      "end": 4.86,
+      "probability": 0.9992678761482239
+    }
+  ]
+}

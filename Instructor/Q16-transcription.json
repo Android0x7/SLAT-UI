@@ -1,0 +1,83 @@
+{
+  "language": "en",
+  "words": [
+    {
+      "word": " The",
+      "start": 0,
+      "end": 0.32,
+      "probability": 0.5591391324996948
+    },
+    {
+      "word": " giant",
+      "start": 0.32,
+      "end": 0.64,
+      "probability": 0.8785890340805054
+    },
+    {
+      "word": " fell",
+      "start": 0.64,
+      "end": 1.02,
+      "probability": 0.9109438061714172
+    },
+    {
+      "word": " and",
+      "start": 1.02,
+      "end": 1.4,
+      "probability": 0.9749544858932495
+    },
+    {
+      "word": " crashed",
+      "start": 1.4,
+      "end": 1.68,
+      "probability": 0.7510824203491211
+    },
+    {
+      "word": " to",
+      "start": 1.68,
+      "end": 1.9,
+      "probability": 0.9939603805541992
+    },
+    {
+      "word": " the",
+      "start": 1.9,
+      "end": 1.98,
+      "probability": 0.9977946281433105
+    },
+    {
+      "word": " ground.",
+      "start": 1.98,
+      "end": 2.4,
+      "probability": 0.9993392825126648
+    },
+    {
+      "word": " Nobody",
+      "start": 2.9,
+      "end": 3.14,
+      "probability": 0.9748397469520569
+    },
+    {
+      "word": " ever",
+      "start": 3.14,
+      "end": 3.68,
+      "probability": 0.9991381168365479
+    },
+    {
+      "word": " saw",
+      "start": 3.68,
+      "end": 3.9,
+      "probability": 0.9937925934791565
+    },
+    {
+      "word": " him",
+      "start": 3.9,
+      "end": 4.14,
+      "probability": 0.9934613704681396
+    },
+    {
+      "word": " again.",
+      "start": 4.14,
+      "end": 4.5,
+      "probability": 0.9988648891448975
+    }
+  ]
+}

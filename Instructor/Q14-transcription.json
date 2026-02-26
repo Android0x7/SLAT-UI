@@ -1,0 +1,65 @@
+{
+  "language": "en",
+  "words": [
+    {
+      "word": " The",
+      "start": 0,
+      "end": 0.3,
+      "probability": 0.7533335089683533
+    },
+    {
+      "word": " Giant",
+      "start": 0.3,
+      "end": 0.56,
+      "probability": 0.6710605025291443
+    },
+    {
+      "word": " came",
+      "start": 0.56,
+      "end": 0.84,
+      "probability": 0.9719138741493225
+    },
+    {
+      "word": " down",
+      "start": 0.84,
+      "end": 1.14,
+      "probability": 0.9949369430541992
+    },
+    {
+      "word": " after",
+      "start": 1.14,
+      "end": 1.38,
+      "probability": 0.9646400213241577
+    },
+    {
+      "word": " him.",
+      "start": 1.38,
+      "end": 1.84,
+      "probability": 0.996960461139679
+    },
+    {
+      "word": " Jack",
+      "start": 2.06,
+      "end": 2.28,
+      "probability": 0.9432628154754639
+    },
+    {
+      "word": " shouted,",
+      "start": 2.28,
+      "end": 2.66,
+      "probability": 0.887119472026825
+    },
+    {
+      "word": " MOTHER",
+      "start": 3.1,
+      "end": 3.48,
+      "probability": 0.3069488853216171
+    },
+    {
+      "word": " HELP!",
+      "start": 3.48,
+      "end": 4.26,
+      "probability": 0.6335247904062271
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "language": "en",
+  "words": [
+    {
+      "word": " The",
+      "start": 0,
+      "end": 0.18,
+      "probability": 0.790478527545929
+    },
+    {
+      "word": " next",
+      "start": 0.18,
+      "end": 0.4,
+      "probability": 0.9964577555656433
+    },
+    {
+      "word": " morning,",
+      "start": 0.4,
+      "end": 0.9,
+      "probability": 0.9985911250114441
+    },
+    {
+      "word": " Jack",
+      "start": 1.24,
+      "end": 1.4,
+      "probability": 0.9729572534561157
+    },
+    {
+      "word": " looked",
+      "start": 1.4,
+      "end": 1.64,
+      "probability": 0.992384672164917
+    },
+    {
+      "word": " out",
+      "start": 1.64,
+      "end": 1.92,
+      "probability": 0.9941226840019226
+    },
+    {
+      "word": " of",
+      "start": 1.92,
+      "end": 2.04,
+      "probability": 0.9864473342895508
+    },
+    {
+      "word": " the",
+      "start": 2.04,
+      "end": 2.12,
+      "probability": 0.9955982565879822
+    },
+    {
+      "word": " window.",
+      "start": 2.12,
+      "end": 2.48,
+      "probability": 0.9982877373695374
+    },
+    {
+      "word": " There",
+      "start": 2.98,
+      "end": 3.06,
+      "probability": 0.9873934984207153
+    },
+    {
+      "word": " was",
+      "start": 3.06,
+      "end": 3.28,
+      "probability": 0.9980448484420776
+    },
+    {
+      "word": " a",
+      "start": 3.28,
+      "end": 3.48,
+      "probability": 0.997921884059906
+    },
+    {
+      "word": " giant",
+      "start": 3.48,
+      "end": 3.88,
+      "probability": 0.9916709661483765
+    },
+    {
+      "word": " bean",
+      "start": 3.88,
+      "end": 4.58,
+      "probability": 0.5404488444328308
+    },
+    {
+      "word": " stalk.",
+      "start": 4.58,
+      "end": 4.94,
+      "probability": 0.6218280792236328
+    },
+    {
+      "word": " He",
+      "start": 5.32,
+      "end": 5.48,
+      "probability": 0.9973172545433044
+    },
+    {
+      "word": " went",
+      "start": 5.48,
+      "end": 5.7,
+      "probability": 0.9980103373527527
+    },
+    {
+      "word": " outside",
+      "start": 5.7,
+      "end": 6.2,
+      "probability": 0.9952744245529175
+    },
+    {
+      "word": " and",
+      "start": 6.2,
+      "end": 6.8,
+      "probability": 0.9236026406288147
+    },
+    {
+      "word": " started",
+      "start": 6.8,
+      "end": 7.16,
+      "probability": 0.9952887296676636
+    },
+    {
+      "word": " to",
+      "start": 7.16,
+      "end": 7.46,
+      "probability": 0.9988430738449097
+    },
+    {
+      "word": " climb",
+      "start": 7.46,
+      "end": 7.8,
+      "probability": 0.9975773692131042
+    },
+    {
+      "word": " the",
+      "start": 7.8,
+      "end": 8.24,
+      "probability": 0.9760895371437073
+    },
+    {
+      "word": " bean",
+      "start": 8.24,
+      "end": 8.5,
+      "probability": 0.7418040633201599
+    },
+    {
+      "word": " stalk.",
+      "start": 8.5,
+      "end": 8.78,
+      "probability": 0.9507300853729248
+    }
+  ]
+}

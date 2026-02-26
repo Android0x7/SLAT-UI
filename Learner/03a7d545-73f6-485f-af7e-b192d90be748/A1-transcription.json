@@ -1,0 +1,47 @@
+{
+  "language": "nn",
+  "words": [
+    {
+      "word": " Let's",
+      "start": 0,
+      "end": 2.54,
+      "probability": 0.46937320893630385
+    },
+    {
+      "word": " move",
+      "start": 2.54,
+      "end": 2.54,
+      "probability": 0.0670439600944519
+    },
+    {
+      "word": " on",
+      "start": 2.54,
+      "end": 2.54,
+      "probability": 0.7963932156562805
+    },
+    {
+      "word": " to",
+      "start": 2.54,
+      "end": 4.6,
+      "probability": 0.8888090252876282
+    },
+    {
+      "word": " the",
+      "start": 4.6,
+      "end": 4.6,
+      "probability": 0.5550709366798401
+    },
+    {
+      "word": " next",
+      "start": 4.6,
+      "end": 4.6,
+      "probability": 0.46203547716140747
+    },
+    {
+      "word": " step.",
+      "start": 4.6,
+      "end": 4.6,
+      "probability": 0.5282287001609802
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "language": "en",
+  "words": [
+    {
+      "word": " Lee",
+      "start": 0,
+      "end": 0.64,
+      "probability": 0.1628938466310501
+    },
+    {
+      "word": " said",
+      "start": 0.64,
+      "end": 1.2,
+      "probability": 0.5197020173072815
+    },
+    {
+      "word": " the",
+      "start": 1.2,
+      "end": 1.4,
+      "probability": 0.9005455374717712
+    },
+    {
+      "word": " giant,",
+      "start": 1.4,
+      "end": 1.74,
+      "probability": 0.8379206657409668
+    },
+    {
+      "word": " the",
+      "start": 2.26,
+      "end": 2.38,
+      "probability": 0.35518166422843933
+    },
+    {
+      "word": " hen",
+      "start": 2.38,
+      "end": 2.66,
+      "probability": 0.32478559017181396
+    },
+    {
+      "word": " laid",
+      "start": 2.66,
+      "end": 2.88,
+      "probability": 0.47750645875930786
+    },
+    {
+      "word": " an",
+      "start": 2.88,
+      "end": 3.12,
+      "probability": 0.5404877662658691
+    },
+    {
+      "word": " egg,",
+      "start": 3.12,
+      "end": 3.48,
+      "probability": 0.9980913996696472
+    },
+    {
+      "word": " it",
+      "start": 3.9,
+      "end": 3.9,
+      "probability": 0.9756141901016235
+    },
+    {
+      "word": " was",
+      "start": 3.9,
+      "end": 4.18,
+      "probability": 0.9980429410934448
+    },
+    {
+      "word": " made",
+      "start": 4.18,
+      "end": 4.42,
+      "probability": 0.9305582642555237
+    },
+    {
+      "word": " of",
+      "start": 4.42,
+      "end": 4.84,
+      "probability": 0.9981995820999146
+    },
+    {
+      "word": " gold.",
+      "start": 4.84,
+      "end": 5.22,
+      "probability": 0.9962670207023621
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "language": "en",
+  "words": [
+    {
+      "word": " With",
+      "start": 0,
+      "end": 0.28,
+      "probability": 0.7934491038322449
+    },
+    {
+      "word": " the",
+      "start": 0.28,
+      "end": 0.54,
+      "probability": 0.9397974014282227
+    },
+    {
+      "word": " golden",
+      "start": 0.54,
+      "end": 0.82,
+      "probability": 0.5385511517524719
+    },
+    {
+      "word": " eggs",
+      "start": 0.82,
+      "end": 1.2,
+      "probability": 0.9917900562286377
+    },
+    {
+      "word": " and",
+      "start": 1.2,
+      "end": 1.5,
+      "probability": 0.9464153051376343
+    },
+    {
+      "word": " the",
+      "start": 1.5,
+      "end": 1.56,
+      "probability": 0.8690193295478821
+    },
+    {
+      "word": " magic",
+      "start": 1.56,
+      "end": 1.9,
+      "probability": 0.9780033826828003
+    },
+    {
+      "word": " harp,",
+      "start": 1.9,
+      "end": 2.48,
+      "probability": 0.8075981140136719
+    },
+    {
+      "word": " Jack",
+      "start": 2.8,
+      "end": 2.98,
+      "probability": 0.927355170249939
+    },
+    {
+      "word": " and",
+      "start": 2.98,
+      "end": 3.22,
+      "probability": 0.9977728724479675
+    },
+    {
+      "word": " his",
+      "start": 3.22,
+      "end": 3.44,
+      "probability": 0.9951649904251099
+    },
+    {
+      "word": " mother",
+      "start": 3.44,
+      "end": 3.92,
+      "probability": 0.9898404479026794
+    },
+    {
+      "word": " lived",
+      "start": 3.92,
+      "end": 4.5,
+      "probability": 0.7377049326896667
+    },
+    {
+      "word": " happily",
+      "start": 4.5,
+      "end": 5.06,
+      "probability": 0.9951167106628418
+    },
+    {
+      "word": " ever",
+      "start": 5.06,
+      "end": 5.86,
+      "probability": 0.978559672832489
+    },
+    {
+      "word": " after.",
+      "start": 5.86,
+      "end": 6.34,
+      "probability": 0.9880691170692444
+    }
+  ]
+}

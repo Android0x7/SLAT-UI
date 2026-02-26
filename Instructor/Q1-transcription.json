@@ -1,0 +1,95 @@
+{
+  "language": "en",
+  "words": [
+    {
+      "word": " Once",
+      "start": 0,
+      "end": 0.38,
+      "probability": 0.9240887761116028
+    },
+    {
+      "word": " upon",
+      "start": 0.38,
+      "end": 0.56,
+      "probability": 0.9916785955429077
+    },
+    {
+      "word": " a",
+      "start": 0.56,
+      "end": 0.72,
+      "probability": 0.9964673519134521
+    },
+    {
+      "word": " time,",
+      "start": 0.72,
+      "end": 1.12,
+      "probability": 0.9995458722114563
+    },
+    {
+      "word": " there",
+      "start": 1.36,
+      "end": 1.38,
+      "probability": 0.9944127202033997
+    },
+    {
+      "word": " was",
+      "start": 1.38,
+      "end": 1.6,
+      "probability": 0.9964062571525574
+    },
+    {
+      "word": " a",
+      "start": 1.6,
+      "end": 1.72,
+      "probability": 0.9969467520713806
+    },
+    {
+      "word": " boy",
+      "start": 1.72,
+      "end": 1.9,
+      "probability": 0.9962239265441895
+    },
+    {
+      "word": " called",
+      "start": 1.9,
+      "end": 2.22,
+      "probability": 0.9909985065460205
+    },
+    {
+      "word": " Jack,",
+      "start": 2.22,
+      "end": 2.6,
+      "probability": 0.892306387424469
+    },
+    {
+      "word": " who",
+      "start": 2.94,
+      "end": 3.04,
+      "probability": 0.996940016746521
+    },
+    {
+      "word": " lived",
+      "start": 3.04,
+      "end": 3.22,
+      "probability": 0.9963619112968445
+    },
+    {
+      "word": " with",
+      "start": 3.22,
+      "end": 3.46,
+      "probability": 0.9994279742240906
+    },
+    {
+      "word": " his",
+      "start": 3.46,
+      "end": 3.62,
+      "probability": 0.9930835962295532
+    },
+    {
+      "word": " mother.",
+      "start": 3.62,
+      "end": 3.9,
+      "probability": 0.9955612421035767
+    }
+  ]
+}

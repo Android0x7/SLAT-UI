@@ -1,0 +1,113 @@
+{
+  "language": "en",
+  "words": [
+    {
+      "word": " When",
+      "start": 0,
+      "end": 0.38,
+      "probability": 0.8271588087081909
+    },
+    {
+      "word": " Jack's",
+      "start": 0.38,
+      "end": 0.72,
+      "probability": 0.7724334299564362
+    },
+    {
+      "word": " mother",
+      "start": 0.72,
+      "end": 0.94,
+      "probability": 0.9515007734298706
+    },
+    {
+      "word": " saw",
+      "start": 0.94,
+      "end": 1.14,
+      "probability": 0.9956099390983582
+    },
+    {
+      "word": " the",
+      "start": 1.14,
+      "end": 1.36,
+      "probability": 0.9896695017814636
+    },
+    {
+      "word": " beans,",
+      "start": 1.36,
+      "end": 1.66,
+      "probability": 0.9041937589645386
+    },
+    {
+      "word": " she",
+      "start": 1.94,
+      "end": 2.08,
+      "probability": 0.9951527118682861
+    },
+    {
+      "word": " was",
+      "start": 2.08,
+      "end": 2.32,
+      "probability": 0.9976844787597656
+    },
+    {
+      "word": " very",
+      "start": 2.32,
+      "end": 2.62,
+      "probability": 0.9939970970153809
+    },
+    {
+      "word": " angry.",
+      "start": 2.62,
+      "end": 3.12,
+      "probability": 0.9971810579299927
+    },
+    {
+      "word": " She",
+      "start": 3.42,
+      "end": 3.62,
+      "probability": 0.9850967526435852
+    },
+    {
+      "word": " threw",
+      "start": 3.62,
+      "end": 3.92,
+      "probability": 0.992438018321991
+    },
+    {
+      "word": " the",
+      "start": 3.92,
+      "end": 4.12,
+      "probability": 0.9970120191574097
+    },
+    {
+      "word": " beans",
+      "start": 4.12,
+      "end": 4.34,
+      "probability": 0.9980762004852295
+    },
+    {
+      "word": " out",
+      "start": 4.34,
+      "end": 4.68,
+      "probability": 0.9976224303245544
+    },
+    {
+      "word": " of",
+      "start": 4.68,
+      "end": 4.78,
+      "probability": 0.9934871196746826
+    },
+    {
+      "word": " the",
+      "start": 4.78,
+      "end": 4.88,
+      "probability": 0.9968493580818176
+    },
+    {
+      "word": " window.",
+      "start": 4.88,
+      "end": 5.18,
+      "probability": 0.9183529019355774
+    }
+  ]
+}

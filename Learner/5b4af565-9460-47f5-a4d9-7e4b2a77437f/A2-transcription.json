@@ -1,0 +1,101 @@
+{
+  "language": "en",
+  "words": [
+    {
+      "word": " They",
+      "start": 0,
+      "end": 0.92,
+      "probability": 0.6407673954963684
+    },
+    {
+      "word": " were",
+      "start": 0.92,
+      "end": 1.1,
+      "probability": 0.9799497723579407
+    },
+    {
+      "word": " very",
+      "start": 1.1,
+      "end": 1.44,
+      "probability": 0.9822505116462708
+    },
+    {
+      "word": " poor",
+      "start": 1.44,
+      "end": 2.02,
+      "probability": 0.9983653426170349
+    },
+    {
+      "word": " and",
+      "start": 2.02,
+      "end": 2.4,
+      "probability": 0.7518368363380432
+    },
+    {
+      "word": " all",
+      "start": 2.4,
+      "end": 2.56,
+      "probability": 0.6604387760162354
+    },
+    {
+      "word": " they",
+      "start": 2.56,
+      "end": 2.74,
+      "probability": 0.8260303139686584
+    },
+    {
+      "word": " had",
+      "start": 2.74,
+      "end": 2.86,
+      "probability": 0.9329075813293457
+    },
+    {
+      "word": " was",
+      "start": 2.86,
+      "end": 3.12,
+      "probability": 0.9808371663093567
+    },
+    {
+      "word": " a",
+      "start": 3.12,
+      "end": 3.3,
+      "probability": 0.6405163407325745
+    },
+    {
+      "word": " cow",
+      "start": 3.3,
+      "end": 3.52,
+      "probability": 0.981389582157135
+    },
+    {
+      "word": " that",
+      "start": 3.52,
+      "end": 3.88,
+      "probability": 0.9603641629219055
+    },
+    {
+      "word": " gave",
+      "start": 3.88,
+      "end": 4.08,
+      "probability": 0.9847849607467651
+    },
+    {
+      "word": " them",
+      "start": 4.08,
+      "end": 4.4,
+      "probability": 0.9909642934799194
+    },
+    {
+      "word": " to",
+      "start": 4.4,
+      "end": 4.58,
+      "probability": 0.8096437454223633
+    },
+    {
+      "word": " milk.",
+      "start": 4.58,
+      "end": 4.92,
+      "probability": 0.918816089630127
+    }
+  ]
+}

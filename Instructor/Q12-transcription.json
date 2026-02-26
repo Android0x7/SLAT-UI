@@ -1,0 +1,83 @@
+{
+  "language": "en",
+  "words": [
+    {
+      "word": " Jack",
+      "start": 0,
+      "end": 0.46,
+      "probability": 0.9419241547584534
+    },
+    {
+      "word": " jumped",
+      "start": 0.46,
+      "end": 1.06,
+      "probability": 0.987525463104248
+    },
+    {
+      "word": " out",
+      "start": 1.06,
+      "end": 1.48,
+      "probability": 0.9965524673461914
+    },
+    {
+      "word": " of",
+      "start": 1.48,
+      "end": 1.68,
+      "probability": 0.9889833331108093
+    },
+    {
+      "word": " the",
+      "start": 1.68,
+      "end": 1.74,
+      "probability": 0.9959052801132202
+    },
+    {
+      "word": " cupboard.",
+      "start": 1.74,
+      "end": 2.08,
+      "probability": 0.9960551261901855
+    },
+    {
+      "word": " He",
+      "start": 2.56,
+      "end": 2.74,
+      "probability": 0.9857330322265625
+    },
+    {
+      "word": " took",
+      "start": 2.74,
+      "end": 2.92,
+      "probability": 0.9980568289756775
+    },
+    {
+      "word": " the",
+      "start": 2.92,
+      "end": 3.18,
+      "probability": 0.9853631258010864
+    },
+    {
+      "word": " hen",
+      "start": 3.18,
+      "end": 3.48,
+      "probability": 0.38566386699676514
+    },
+    {
+      "word": " and",
+      "start": 3.48,
+      "end": 4.04,
+      "probability": 0.8824924826622009
+    },
+    {
+      "word": " the",
+      "start": 4.04,
+      "end": 4.28,
+      "probability": 0.9738609194755554
+    },
+    {
+      "word": " hob.",
+      "start": 4.28,
+      "end": 4.54,
+      "probability": 0.4335874617099762
+    }
+  ]
+}

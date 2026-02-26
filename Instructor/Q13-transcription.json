@@ -1,0 +1,149 @@
+{
+  "language": "en",
+  "words": [
+    {
+      "word": " Suddenly,",
+      "start": 0,
+      "end": 0.58,
+      "probability": 0.954904317855835
+    },
+    {
+      "word": " the",
+      "start": 0.96,
+      "end": 1.18,
+      "probability": 0.9597588181495667
+    },
+    {
+      "word": " harp",
+      "start": 1.18,
+      "end": 1.52,
+      "probability": 0.6255604028701782
+    },
+    {
+      "word": " sang,",
+      "start": 1.52,
+      "end": 2.02,
+      "probability": 0.9226261973381042
+    },
+    {
+      "word": " helped",
+      "start": 2.4,
+      "end": 2.66,
+      "probability": 0.02603660151362419
+    },
+    {
+      "word": " master",
+      "start": 2.66,
+      "end": 3.16,
+      "probability": 0.6236506700515747
+    },
+    {
+      "word": " the",
+      "start": 3.16,
+      "end": 3.86,
+      "probability": 0.570945680141449
+    },
+    {
+      "word": " giant",
+      "start": 3.86,
+      "end": 4.16,
+      "probability": 0.9612163305282593
+    },
+    {
+      "word": " woke",
+      "start": 4.16,
+      "end": 4.42,
+      "probability": 0.9878276586532593
+    },
+    {
+      "word": " up",
+      "start": 4.42,
+      "end": 4.66,
+      "probability": 0.6348381638526917
+    },
+    {
+      "word": " and",
+      "start": 4.66,
+      "end": 4.82,
+      "probability": 0.9916629791259766
+    },
+    {
+      "word": " shouted,",
+      "start": 4.82,
+      "end": 5.32,
+      "probability": 0.9818352460861206
+    },
+    {
+      "word": " fee",
+      "start": 5.8,
+      "end": 6.18,
+      "probability": 0.0743686854839325
+    },
+    {
+      "word": " fee",
+      "start": 6.18,
+      "end": 6.66,
+      "probability": 0.6648391485214233
+    },
+    {
+      "word": " foe",
+      "start": 6.66,
+      "end": 7.16,
+      "probability": 0.7700187563896179
+    },
+    {
+      "word": " from",
+      "start": 7.16,
+      "end": 7.52,
+      "probability": 0.6487818360328674
+    },
+    {
+      "word": " Jack",
+      "start": 7.52,
+      "end": 8.38,
+      "probability": 0.5234325528144836
+    },
+    {
+      "word": " Ran",
+      "start": 8.38,
+      "end": 8.84,
+      "probability": 0.39213186502456665
+    },
+    {
+      "word": " and",
+      "start": 8.84,
+      "end": 9.3,
+      "probability": 0.842405378818512
+    },
+    {
+      "word": " started",
+      "start": 9.3,
+      "end": 9.66,
+      "probability": 0.991454005241394
+    },
+    {
+      "word": " climbing",
+      "start": 9.66,
+      "end": 10.04,
+      "probability": 0.9878690838813782
+    },
+    {
+      "word": " down",
+      "start": 10.04,
+      "end": 10.48,
+      "probability": 0.9983230233192444
+    },
+    {
+      "word": " the",
+      "start": 10.48,
+      "end": 10.64,
+      "probability": 0.9924370646476746
+    },
+    {
+      "word": " beanstalk.",
+      "start": 10.64,
+      "end": 11.1,
+      "probability": 0.5894847512245178
+    }
+  ]
+}

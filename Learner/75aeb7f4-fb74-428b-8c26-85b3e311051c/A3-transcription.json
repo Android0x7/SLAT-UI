@@ -1,0 +1,89 @@
+{
+  "language": "en",
+  "words": [
+    {
+      "word": " One",
+      "start": 0.8200000000000007,
+      "end": 1.4200000000000004,
+      "probability": 0.5221830606460571
+    },
+    {
+      "word": " morning,",
+      "start": 1.4200000000000004,
+      "end": 2.02,
+      "probability": 0.941605806350708
+    },
+    {
+      "word": " the",
+      "start": 2.36,
+      "end": 2.44,
+      "probability": 0.9758923649787903
+    },
+    {
+      "word": " boy",
+      "start": 2.44,
+      "end": 2.74,
+      "probability": 0.28183478116989136
+    },
+    {
+      "word": " said",
+      "start": 2.74,
+      "end": 3,
+      "probability": 0.7645218968391418
+    },
+    {
+      "word": " to",
+      "start": 3,
+      "end": 3.3,
+      "probability": 0.8499148488044739
+    },
+    {
+      "word": " the",
+      "start": 3.3,
+      "end": 3.52,
+      "probability": 0.9195476174354553
+    },
+    {
+      "word": " mother,",
+      "start": 3.52,
+      "end": 4.06,
+      "probability": 0.9854045510292053
+    },
+    {
+      "word": " go",
+      "start": 4.26,
+      "end": 4.36,
+      "probability": 0.7556354403495789
+    },
+    {
+      "word": " to",
+      "start": 4.36,
+      "end": 4.64,
+      "probability": 0.9862252473831177
+    },
+    {
+      "word": " the",
+      "start": 4.64,
+      "end": 4.88,
+      "probability": 0.9917941689491272
+    },
+    {
+      "word": " market",
+      "start": 4.88,
+      "end": 5.3,
+      "probability": 0.9638863205909729
+    },
+    {
+      "word": " and",
+      "start": 5.3,
+      "end": 5.76,
+      "probability": 0.967004656791687
+    },
+    {
+      "word": " sell.",
+      "start": 5.76,
+      "end": 5.98,
+      "probability": 0.9670877456665039
+    }
+  ]
+}

@@ -7,8 +7,8 @@ const { v4: uuidv4 } = require('uuid');
 const app = express();
 const PORT = 3000;
 
-// Create uploads directory if it doesn't exist
-const uploadsDir = path.join(__dirname, 'uploads');
+// Create Learner directory if it doesn't exist
+const uploadsDir = path.join(__dirname, 'Learner');
 if (!fs.existsSync(uploadsDir)) {
     fs.mkdirSync(uploadsDir, { recursive: true });
 }
@@ -42,8 +42,9 @@ const storage = multer.diskStorage({
         cb(null, sessionDir);
     },
     filename: (req, file, cb) => {
-        const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
-        cb(null, `recording-${timestamp}.webm`);
+        // Use the provided filename from FormData or generate timestamp-based name
+        const originalName = file.originalname || `recording-${new Date().toISOString().replace(/[:.]/g, '-')}.webm`;
+        cb(null, originalName);
     }
 });
 
@@ -90,6 +91,40 @@ app.get('/api/session/:sessionId', (req, res) => {
         });
     } else {
         res.status(404).json({ error: 'Session not found' });
+    }
+});
+
+// Save transcription
+app.post('/api/save-transcription', (req, res) => {
+    const { sessionId, transcriptionFileName, transcriptionData } = req.body;
+    
+    if (!sessionId || !transcriptionFileName || !transcriptionData) {
+        return res.status(400).json({ error: 'Missing required fields' });
+    }
+    
+    try {
+        const sessionDir = path.join(uploadsDir, sessionId);
+        
+        // Create session directory if it doesn't exist
+        if (!fs.existsSync(sessionDir)) {
+            fs.mkdirSync(sessionDir, { recursive: true });
+        }
+        
+        // Extract filename only (no path)
+        const fileName = path.basename(transcriptionFileName);
+        const transcriptionPath = path.join(sessionDir, fileName);
+        
+        // Save transcription JSON
+        fs.writeFileSync(transcriptionPath, JSON.stringify(transcriptionData, null, 2));
+        
+        res.json({
+            success: true,
+            message: 'Transcription saved successfully',
+            filename: fileName,
+            path: transcriptionPath
+        });
+    } catch (error) {
+        res.status(500).json({ error: 'Failed to save transcription: ' + error.message });
     }
 });
 
